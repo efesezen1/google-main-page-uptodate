@@ -3,6 +3,10 @@ body {
   font-size: 13px;
 }
 
+button{
+cursor: pointer;
+}
+
 input {
   border: none; /* Removes the default border */
 }
@@ -63,6 +67,7 @@ a:hover {
   background: #1A73E8;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  border:none;
 }
 
 .btn:hover {
@@ -91,6 +96,10 @@ a:hover {
 
 .main__search--section__buttons {
   padding-top: 2em;
+}
+
+.searchbutton{
+  border: 1px #0d2030;
 }
 
 footer {
