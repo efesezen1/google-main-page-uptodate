@@ -3,8 +3,8 @@ body {
   font-size: 13px;
 }
 
-button{
-cursor: pointer;
+button {
+  cursor: pointer;
 }
 
 input {
@@ -64,10 +64,10 @@ a:hover {
   font-family: Arial;
   color: #ffffff;
   font-size: 13px;
-  background: #1A73E8;
+  background: #1a73e8;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  border:none;
+  border: none;
 }
 
 .btn:hover {
@@ -98,7 +98,7 @@ a:hover {
   padding-top: 2em;
 }
 
-.searchbutton{
+.searchbutton {
   border: 1px #0d2030;
 }
 
@@ -128,19 +128,25 @@ footer {
   padding-right: 2em;
 }
 
-.main__search--section__buttons{
-    display: flex;
-justify-content: center;
+.main__search--section__buttons {
+  display: flex;
+  justify-content: center;
 }
 
-.searchbutton, .feelinglucky{
-    background-color: #F8F9FA;
-    color: black;
-    border: none;
+.searchbutton,
+.feelinglucky {
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+  border-radius: 5px;
 
-    padding: 0.5em 1.5em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.searchbutton:hover, .feelinglucky:hover{
+  border: 1px solid rgb(132, 132, 132);
+}
