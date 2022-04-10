@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-size: 13px;
+}
+
+input {
+  border: none; /* Removes the default border */
+}
+
+input:focus {
+  outline: none; /*Removes the border when the input is clicked */
+}
+
+main {
+  display: block;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #0d2030;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d2030;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav__right--apps {
+  width: 15px;
+}
+
+/* -------------------------------- */
+
+.nav {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__left--store {
+  padding-left: 2em;
+}
+
+.nav__right--gmail,
+.nav__right--image,
+.nav__right--apps {
+  padding-right: 1em;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background: #1A73E8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
+
+.main__search--section {
+  padding-top: 1em;
+}
+
+.searchbar {
+  width: 50em;
+  height: 4em;
+  border-radius: 25px;
+  border: 1px solid #c6c6c6;
+}
+
+.main__search--section__buttons {
+  padding-top: 2em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5em;
+  background-color: #f2f2f2;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.footer__left > a {
+  padding-right: 2em;
+}
+
+.adv {
+  padding-left: 1em;
+}
+
+.footer__right > a {
+  padding-right: 2em;
+}
+
+.main__search--section__buttons{
+    display: flex;
+justify-content: center;
+}
+
+.searchbutton, .feelinglucky{
+    background-color: #F8F9FA;
+    color: black;
+    border: none;
+
+    padding: 0.5em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
